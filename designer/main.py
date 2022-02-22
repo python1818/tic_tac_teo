@@ -144,113 +144,41 @@ class TicTacToe(QtWidgets.QMainWindow):
     def control(self):
         if board[0][0] == board[0][1] == board[0][2] == 0:
             self.ui.labelWho.setText("Player 1 wins (X)")
-            # self.ui.pushButton.setDisabled(True)
-            # self.ui.pushButton_2.setDisabled(True)
-            # self.ui.pushButton_3.setDisabled(True)
-            # self.ui.pushButton_4.setDisabled(True)
-            # self.ui.pushButton_5.setDisabled(True)
-            # self.ui.pushButton_6.setDisabled(True)
-            # self.ui.pushButton_7.setDisabled(True)
-            # self.ui.pushButton_8.setDisabled(True)
-            # self.ui.pushButton_9.setDisabled(True)
             self.disableAllButons()
 
 
         elif board[1][0] == board[1][1] == board[1][2] == 0:
             self.ui.labelWho.setText("Player 1 wins (X)")
-            # self.ui.pushButton.setDisabled(True)
-            # self.ui.pushButton_2.setDisabled(True)
-            # self.ui.pushButton_3.setDisabled(True)
-            # self.ui.pushButton_4.setDisabled(True)
-            # self.ui.pushButton_5.setDisabled(True)
-            # self.ui.pushButton_6.setDisabled(True)
-            # self.ui.pushButton_7.setDisabled(True)
-            # self.ui.pushButton_8.setDisabled(True)
-            # self.ui.pushButton_9.setDisabled(True)
             self.disableAllButons()
 
 
         elif board[2][0] == board[2][1] == board[2][2] == 0:
             self.ui.labelWho.setText("Player 1 wins (X)")
-            # self.ui.pushButton.setDisabled(True)
-            # self.ui.pushButton_2.setDisabled(True)
-            # self.ui.pushButton_3.setDisabled(True)
-            # self.ui.pushButton_4.setDisabled(True)
-            # self.ui.pushButton_5.setDisabled(True)
-            # self.ui.pushButton_6.setDisabled(True)
-            # self.ui.pushButton_7.setDisabled(True)
-            # self.ui.pushButton_8.setDisabled(True)
-            # self.ui.pushButton_9.setDisabled(True)
             self.disableAllButons()
 
 
         elif board[0][0] == board[1][0] == board[2][0] == 0:
             self.ui.labelWho.setText("Player 1 wins (X)")
-            # self.ui.pushButton.setDisabled(True)
-            # self.ui.pushButton_2.setDisabled(True)
-            # self.ui.pushButton_3.setDisabled(True)
-            # self.ui.pushButton_4.setDisabled(True)
-            # self.ui.pushButton_5.setDisabled(True)
-            # self.ui.pushButton_6.setDisabled(True)
-            # self.ui.pushButton_7.setDisabled(True)
-            # self.ui.pushButton_8.setDisabled(True)
-            # self.ui.pushButton_9.setDisabled(True)
             self.disableAllButons()
 
 
         elif board[0][1] == board[1][1] == board[2][1] == 0:
             self.ui.labelWho.setText("Player 1 wins (X)")
-            # self.ui.pushButton.setDisabled(True)
-            # self.ui.pushButton_2.setDisabled(True)
-            # self.ui.pushButton_3.setDisabled(True)
-            # self.ui.pushButton_4.setDisabled(True)
-            # self.ui.pushButton_5.setDisabled(True)
-            # self.ui.pushButton_6.setDisabled(True)
-            # self.ui.pushButton_7.setDisabled(True)
-            # self.ui.pushButton_8.setDisabled(True)
-            # self.ui.pushButton_9.setDisabled(True)
             self.disableAllButons()
 
 
         elif board[0][2] == board[1][2] == board[2][2] == 0:
             self.ui.labelWho.setText("Player 1 wins (X)")
-            # self.ui.pushButton.setDisabled(True)
-            # self.ui.pushButton_2.setDisabled(True)
-            # self.ui.pushButton_3.setDisabled(True)
-            # self.ui.pushButton_4.setDisabled(True)
-            # self.ui.pushButton_5.setDisabled(True)
-            # self.ui.pushButton_6.setDisabled(True)
-            # self.ui.pushButton_7.setDisabled(True)
-            # self.ui.pushButton_8.setDisabled(True)
-            # self.ui.pushButton_9.setDisabled(True)
             self.disableAllButons()
 
 
         elif board[0][0] == board[1][1] == board[2][2] == 0:
             self.ui.labelWho.setText("Player 1 wins (X)")
-            # self.ui.pushButton.setDisabled(True)
-            # self.ui.pushButton_2.setDisabled(True)
-            # self.ui.pushButton_3.setDisabled(True)
-            # self.ui.pushButton_4.setDisabled(True)
-            # self.ui.pushButton_5.setDisabled(True)
-            # self.ui.pushButton_6.setDisabled(True)
-            # self.ui.pushButton_7.setDisabled(True)
-            # self.ui.pushButton_8.setDisabled(True)
-            # self.ui.pushButton_9.setDisabled(True)
             self.disableAllButons()
 
 
         elif board[0][2] == board[1][1] == board[2][0] == 0:
             self.ui.labelWho.setText("Player 1 wins (O)")
-            # self.ui.pushButton.setDisabled(True)
-            # self.ui.pushButton_2.setDisabled(True)
-            # self.ui.pushButton_3.setDisabled(True)
-            # self.ui.pushButton_4.setDisabled(True)
-            # self.ui.pushButton_5.setDisabled(True)
-            # self.ui.pushButton_6.setDisabled(True)
-            # self.ui.pushButton_7.setDisabled(True)
-            # self.ui.pushButton_8.setDisabled(True)
-            # self.ui.pushButton_9.setDisabled(True)
             self.disableAllButons()
 
 
@@ -258,129 +186,49 @@ class TicTacToe(QtWidgets.QMainWindow):
 
         if board[0][0] == board[0][1] == board[0][2] == 1:
             self.ui.labelWho.setText("Player 2 wins (O)")
-            # self.ui.pushButton.setDisabled(True)
-            # self.ui.pushButton_2.setDisabled(True)
-            # self.ui.pushButton_3.setDisabled(True)
-            # self.ui.pushButton_4.setDisabled(True)
-            # self.ui.pushButton_5.setDisabled(True)
-            # self.ui.pushButton_6.setDisabled(True)
-            # self.ui.pushButton_7.setDisabled(True)
-            # self.ui.pushButton_8.setDisabled(True)
-            # self.ui.pushButton_9.setDisabled(True)
             self.disableAllButons()
 
 
         elif board[1][0] == board[1][1] == board[1][2] == 1:
             self.ui.labelWho.setText("Player 2 wins (O)")
-            # self.ui.pushButton.setDisabled(True)
-            # self.ui.pushButton_2.setDisabled(True)
-            # self.ui.pushButton_3.setDisabled(True)
-            # self.ui.pushButton_4.setDisabled(True)
-            # self.ui.pushButton_5.setDisabled(True)
-            # self.ui.pushButton_6.setDisabled(True)
-            # self.ui.pushButton_7.setDisabled(True)
-            # self.ui.pushButton_8.setDisabled(True)
-            # self.ui.pushButton_9.setDisabled(True)
             self.disableAllButons()
 
 
         elif board[2][0] == board[2][1] == board[2][2] == 1:
             self.ui.labelWho.setText("Player 2 wins (O)")
-            # self.ui.pushButton.setDisabled(True)
-            # self.ui.pushButton_2.setDisabled(True)
-            # self.ui.pushButton_3.setDisabled(True)
-            # self.ui.pushButton_4.setDisabled(True)
-            # self.ui.pushButton_5.setDisabled(True)
-            # self.ui.pushButton_6.setDisabled(True)
-            # self.ui.pushButton_7.setDisabled(True)
-            # self.ui.pushButton_8.setDisabled(True)
-            # self.ui.pushButton_9.setDisabled(True)
+
             self.disableAllButons()
 
 
         elif board[0][0] == board[1][0] == board[2][0] == 1:
             self.ui.labelWho.setText("Player 2 wins (O)")
-            # self.ui.pushButton.setDisabled(True)
-            # self.ui.pushButton_2.setDisabled(True)
-            # self.ui.pushButton_3.setDisabled(True)
-            # self.ui.pushButton_4.setDisabled(True)
-            # self.ui.pushButton_5.setDisabled(True)
-            # self.ui.pushButton_6.setDisabled(True)
-            # self.ui.pushButton_7.setDisabled(True)
-            # self.ui.pushButton_8.setDisabled(True)
-            # self.ui.pushButton_9.setDisabled(True)
             self.disableAllButons()
 
 
         elif board[0][1] == board[1][1] == board[2][1] == 1:
             self.ui.labelWho.setText("Player 2 wins (O)")
-            # self.ui.pushButton.setDisabled(True)
-            # self.ui.pushButton_2.setDisabled(True)
-            # self.ui.pushButton_3.setDisabled(True)
-            # self.ui.pushButton_4.setDisabled(True)
-            # self.ui.pushButton_5.setDisabled(True)
-            # self.ui.pushButton_6.setDisabled(True)
-            # self.ui.pushButton_7.setDisabled(True)
-            # self.ui.pushButton_8.setDisabled(True)
-            # self.ui.pushButton_9.setDisabled(True)
             self.disableAllButons()
 
 
         elif board[0][2] == board[1][2] == board[2][2] == 1:
             self.ui.labelWho.setText("Player 2 wins (O)")
-            # self.ui.pushButton.setDisabled(True)
-            # self.ui.pushButton_2.setDisabled(True)
-            # self.ui.pushButton_3.setDisabled(True)
-            # self.ui.pushButton_4.setDisabled(True)
-            # self.ui.pushButton_5.setDisabled(True)
-            # self.ui.pushButton_6.setDisabled(True)
-            # self.ui.pushButton_7.setDisabled(True)
-            # self.ui.pushButton_8.setDisabled(True)
-            # self.ui.pushButton_9.setDisabled(True)
             self.disableAllButons()
 
 
         elif board[0][0] == board[1][1] == board[2][2] == 1:
             self.ui.labelWho.setText("Player 2 wins (O)")
-            # self.ui.pushButton.setDisabled(True)
-            # self.ui.pushButton_2.setDisabled(True)
-            # self.ui.pushButton_3.setDisabled(True)
-            # self.ui.pushButton_4.setDisabled(True)
-            # self.ui.pushButton_5.setDisabled(True)
-            # self.ui.pushButton_6.setDisabled(True)
-            # self.ui.pushButton_7.setDisabled(True)
-            # self.ui.pushButton_8.setDisabled(True)
-            # self.ui.pushButton_9.setDisabled(True)
             self.disableAllButons()
 
 
         elif board[0][2] == board[1][1] == board[2][0] == 1:
             self.ui.labelWho.setText("Player 2 wins (O)")
-            # self.ui.pushButton.setDisabled(True)
-            # self.ui.pushButton_2.setDisabled(True)
-            # self.ui.pushButton_3.setDisabled(True)
-            # self.ui.pushButton_4.setDisabled(True)
-            # self.ui.pushButton_5.setDisabled(True)
-            # self.ui.pushButton_6.setDisabled(True)
-            # self.ui.pushButton_7.setDisabled(True)
-            # self.ui.pushButton_8.setDisabled(True)
-            # self.ui.pushButton_9.setDisabled(True)
             self.disableAllButons()
 
 
         elif " " not in board[0] and " " not in board[1] and " " not in board[2]:
             self.ui.labelWho.setText("It is a tie")
-            # self.ui.pushButton.setDisabled(True)
-            # self.ui.pushButton_2.setDisabled(True)
-            # self.ui.pushButton_3.setDisabled(True)
-            # self.ui.pushButton_4.setDisabled(True)
-            # self.ui.pushButton_5.setDisabled(True)
-            # self.ui.pushButton_6.setDisabled(True)
-            # self.ui.pushButton_7.setDisabled(True)
-            # self.ui.pushButton_8.setDisabled(True)
-            # self.ui.pushButton_9.setDisabled(True)
             self.disableAllButons()
-            
+
 
 
     def refresh (self):
@@ -418,8 +266,10 @@ class TicTacToe(QtWidgets.QMainWindow):
 
 
 
+def run_in_window():
+    app = QtWidgets.QApplication(sys.argv)
+    win = TicTacToe()
+    win.show()
+    sys.exit(app.exec_())
 
-app = QtWidgets.QApplication(sys.argv)
-win = TicTacToe()
-win.show()
-sys.exit(app.exec_())
+run_in_window()
